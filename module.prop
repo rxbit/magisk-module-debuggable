@@ -1,0 +1,7 @@
+id=rx_debuggable
+name=Debuggable
+version=v1
+versionCode=1
+author=rxbit
+description=Enable ro.debuggable
+minMagisk=1500
