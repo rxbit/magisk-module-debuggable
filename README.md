@@ -1,3 +1,5 @@
+PowerShell version of the build script depends on 7zip install into C:\Program Files\7-Zip\
+
 ```sh
 # Enable Debuggable
 ro.debuggable=1
