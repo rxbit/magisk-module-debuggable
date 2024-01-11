@@ -13,7 +13,7 @@ Write-Output "Copying installer files"
 Copy-Item -R ./installer/* ./build/
 Set-Location build
 Write-Output "Zipping all together"
-C:\Program Files\7-Zip\7z.exe a $destination "$($source + '\')"
+. "$env:ProgramFiles\7-Zip\7z.exe"  a $destination "$($source + '\*')" >$null
 Set-Location ../
 Write-Output "Cleaning"
 Remove-Item ./build -Recurse
