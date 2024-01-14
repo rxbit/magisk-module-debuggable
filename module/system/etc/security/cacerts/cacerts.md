@@ -1,0 +1,1 @@
+To create new caCert, follow the instructions from http://wiki.cacert.org/FAQ/ImportRootCert#Android_Phones_.26_Tablets, except that you need not to push your newly created cacert to your phone directly, enstead copy it here in the module/system/etc/security/cacerts/
